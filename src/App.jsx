@@ -1,13 +1,12 @@
 import { Box, Typography } from '@mui/material'
 import './App.css'
+import Home from './Pages/Home'
 
 function App() {
 
   return (
     <>
-    <Box>
-      <Typography>Hey</Typography>
-    </Box>
+    <Home />
     </>
   )
 }
