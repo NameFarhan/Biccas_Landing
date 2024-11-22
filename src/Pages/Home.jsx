@@ -3,6 +3,7 @@ import Navbar from "../Layout/Navbar";
 import { Box } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import Hero from "../Components/Hero";
+import Collabs from "../Components/Collabs";
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
         }}
       >
         <Navbar />
-        <Hero/>
+        <Hero />
+        <Collabs />
       </Box>
     </>
   );
