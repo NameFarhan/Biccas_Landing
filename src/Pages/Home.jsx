@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import Hero from "../Components/Hero";
 import Collabs from "../Components/Collabs";
+import Support from "../Components/Support";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Hero />
         <Collabs />
       </Box>
+      <Support />
     </>
   );
 };

@@ -176,6 +176,11 @@ const Collabs = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  paddingBottom: {
+                    mobile: "15vh",
+                    laptop: "1vh",
+                    desktop: "15vh",
+                  },
                 }}
               >
                 <Box
