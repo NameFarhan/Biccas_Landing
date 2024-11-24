@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../Layout/Navbar";
 import { Box } from "@mui/material";
-import { useTheme } from "@emotion/react";
 import Hero from "../Components/Hero";
 import Collabs from "../Components/Collabs";
 import Support from "../Components/Support";
+import Features from "../Components/Features";
 
 const Home = () => {
   return (
@@ -21,6 +21,7 @@ const Home = () => {
         <Collabs />
       </Box>
       <Support />
+      <Features />
     </>
   );
 };
