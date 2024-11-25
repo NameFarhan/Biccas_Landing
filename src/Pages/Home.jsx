@@ -5,6 +5,7 @@ import Hero from "../Components/Hero";
 import Collabs from "../Components/Collabs";
 import Support from "../Components/Support";
 import Features from "../Components/Features";
+import Benefits from "../Components/Benefits";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       </Box>
       <Support />
       <Features />
+      <Benefits/>
     </>
   );
 };
