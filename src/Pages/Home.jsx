@@ -6,6 +6,7 @@ import Collabs from "../Components/Collabs";
 import Support from "../Components/Support";
 import Features from "../Components/Features";
 import Benefits from "../Components/Benefits";
+import Plan from "../Components/Plan";
 
 const Home = () => {
   return (
@@ -23,7 +24,16 @@ const Home = () => {
       </Box>
       <Support />
       <Features />
-      <Benefits/>
+      <Benefits />
+      <Box
+        sx={{
+          background:
+            "linear-gradient(135deg, rgba(82, 189, 170, 0.0) 0%, rgba(84, 190, 150, 0.3) 120%)",
+          height: "100%",
+        }}
+      >
+        <Plan />
+      </Box>
     </>
   );
 };
