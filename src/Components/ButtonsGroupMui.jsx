@@ -61,7 +61,10 @@ export default function PlanButtons() {
         sx={{
           border: "none",
           outline: "none",
-          boxShadow: "none",
+          bgcolor: "#fff",
+          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+          borderRadius: "10px",
+          padding: "10px 10px",
         }}
         size="large"
         aria-label="Small button group"

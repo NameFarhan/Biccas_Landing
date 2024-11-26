@@ -1,7 +1,8 @@
 import { useTheme } from "@emotion/react";
 import { PlanWrapper } from "../Components/PlanWrapper";
 import { Box, Typography } from "@mui/material";
-import PlanButtons from '../Components/ButtonsGroupMui'
+import PlanButtons from "../Components/ButtonsGroupMui";
+import Plans from "./Plans";
 const Plan = () => {
   const theme = useTheme();
   return (
@@ -14,6 +15,7 @@ const Plan = () => {
             gap: "30px",
             justifyContent: "center",
             alignItems: "center",
+            mb: "3rem",
           }}
         >
           <Typography
@@ -45,6 +47,7 @@ const Plan = () => {
 
           <PlanButtons />
         </Box>
+        <Plans />
       </PlanWrapper>
     </>
   );
