@@ -1,7 +1,7 @@
 import { useTheme } from "@emotion/react";
 import { Box, Grid2 } from "@mui/material";
 
-const Plans = () => {
+const PlansYearly = () => {
   const theme = useTheme();
   return (
     <>
@@ -23,7 +23,7 @@ const Plans = () => {
               height: "100%",
             }}
           >
-            HEllo i am in plan
+            Hey! You are in the Plans Yearly
           </Box>
         </Grid2>
       </Grid2>
@@ -31,4 +31,4 @@ const Plans = () => {
   );
 };
 
-export default Plans;
+export default PlansYearly;

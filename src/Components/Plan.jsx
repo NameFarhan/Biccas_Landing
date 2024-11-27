@@ -1,10 +1,19 @@
+import { useState } from "react";
 import { useTheme } from "@emotion/react";
 import { PlanWrapper } from "../Components/PlanWrapper";
 import { Box, Typography } from "@mui/material";
 import PlanButtons from "../Components/ButtonsGroupMui";
-import Plans from "./Plans";
+import PlansYearly from "./PlansYearly";
+import PlansMonthly from "./PlansMonthly"; // Create this component for monthly plans
+
 const Plan = () => {
   const theme = useTheme();
+  const [selectedPlan, setSelectedPlan] = useState("monthly"); // Default to monthly plans
+
+  const handlePlanChange = (planType) => {
+    setSelectedPlan(planType);
+  };
+
   return (
     <>
       <PlanWrapper>
@@ -45,9 +54,9 @@ const Plan = () => {
             Choose plan that works best for you, feel free to contact us
           </Typography>
 
-          <PlanButtons />
+          <PlanButtons onPlanChange={handlePlanChange} />
         </Box>
-        <Plans />
+        {selectedPlan === "monthly" ? <PlansMonthly /> : <PlansYearly />}
       </PlanWrapper>
     </>
   );
