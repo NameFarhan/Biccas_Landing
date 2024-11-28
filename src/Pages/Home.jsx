@@ -7,6 +7,7 @@ import Support from "../Components/Support";
 import Features from "../Components/Features";
 import Benefits from "../Components/Benefits";
 import Plan from "../Components/Plan";
+import Contact from "../Components/Contact";
 
 const Home = () => {
   return (
@@ -34,6 +35,8 @@ const Home = () => {
       >
         <Plan />
       </Box>
+
+      <Contact />
     </>
   );
 };
