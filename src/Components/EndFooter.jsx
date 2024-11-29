@@ -43,17 +43,13 @@ const EndFooter = () => {
           >
             Terms and Condtions
           </Typography>
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: {
-                mobile: "14px",
-                laptop: "18px",
-              },
-            }}
-          >
-            Privacy Policy
-          </Typography>
+          <Typography sx={{
+            color: "#fff",
+            fontSize: {
+              mobile: "14px",
+              laptop: "18px",
+            },
+          }}>Privacy Policy</Typography>
         </Box>
       </Box>
     </>
