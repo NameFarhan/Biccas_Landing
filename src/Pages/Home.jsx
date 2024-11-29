@@ -35,8 +35,9 @@ const Home = () => {
       >
         <Plan />
       </Box>
-
+      {/* Footer is also in contact */}
       <Contact />
+      
     </>
   );
 };

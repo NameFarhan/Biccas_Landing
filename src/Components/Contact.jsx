@@ -1,5 +1,6 @@
 import { Box, Button, Grid2, TextField, Typography } from "@mui/material";
 import { ContactWrapper } from "../Components/ContactWrapper";
+import Footer from "../Layout/footer";
 import { useTheme } from "@emotion/react";
 import ContactAvatars from "./Avatar";
 import contactimage1 from "../Images/contactimage1.webp";
@@ -282,7 +283,7 @@ const Contact = () => {
                       color: "#fff",
                       fontWeight: "700",
                       width: "100%",
-                      height:'60px',
+                      height: "60px",
                       textTransform: "none", // Avoid uppercase text
                       borderRadius: "10px",
                     }}
@@ -294,6 +295,8 @@ const Contact = () => {
             </Box>
           </Grid2>
         </Grid2>
+        {/* Footer Here */}
+        <Footer />
       </ContactWrapper>
     </>
   );
