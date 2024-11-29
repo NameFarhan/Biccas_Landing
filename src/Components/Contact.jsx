@@ -1,6 +1,6 @@
 import { Box, Button, Grid2, TextField, Typography } from "@mui/material";
 import { ContactWrapper } from "../Components/ContactWrapper";
-import Footer from "../Layout/footer";
+import Footer from "../Layout/Footer";
 import { useTheme } from "@emotion/react";
 import ContactAvatars from "./Avatar";
 import contactimage1 from "../Images/contactimage1.webp";
