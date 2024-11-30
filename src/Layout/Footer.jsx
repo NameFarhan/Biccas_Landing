@@ -8,9 +8,10 @@ const Footer = () => {
     <>
       <Box
         sx={{
-          pt: {
-            mobile: "70px",
-            laptop: "170px",
+          p: {
+            mobile: "70px 0 10px 0",
+            tablet: "100px 0 0 0",
+            laptop: "70px 0 50px 0",
           },
         }}
       >
