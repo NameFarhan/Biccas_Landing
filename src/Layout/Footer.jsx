@@ -12,6 +12,7 @@ const Footer = () => {
             mobile: "70px 0 10px 0",
             tablet: "100px 0 0 0",
             laptop: "70px 0 50px 0",
+            laptop: "140px 0 50px 0",
           },
         }}
       >

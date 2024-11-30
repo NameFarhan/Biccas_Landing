@@ -41,6 +41,7 @@ const Navbar = () => {
           >
             {/* Logo */}
             <Typography
+              data-aos="fade-right"
               variant="p"
               component="div"
               sx={{
@@ -67,6 +68,7 @@ const Navbar = () => {
 
             {/* Navigation Buttons */}
             <Box
+              data-aos="fade-down"
               sx={{
                 display: {
                   mobile: "none",
@@ -149,6 +151,7 @@ const Navbar = () => {
 
             {/* Hamburger Menu for Mobile */}
             <Box
+              data-aos="fade-left"
               sx={{
                 display: {
                   mobile: "block",
@@ -162,9 +165,9 @@ const Navbar = () => {
                   position: {
                     mobile: "relative",
                   },
-                  left:{
-                    mobile:'4px'
-                  }
+                  left: {
+                    mobile: "4px",
+                  },
                 }}
                 onClick={handleDrawerToggle}
                 color="inherit"
@@ -175,6 +178,7 @@ const Navbar = () => {
 
             {/* Login and Signup Buttons */}
             <Box
+              data-aos="fade-left"
               sx={{
                 display: {
                   mobile: "none",

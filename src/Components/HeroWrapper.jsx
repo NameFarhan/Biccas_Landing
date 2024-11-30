@@ -4,6 +4,7 @@ export const HeroWrapper = ({ children }) => {
   return (
     <>
       <Box
+        data-aos="fade-in"
         sx={{
           padding: {
             mobile: "10px 10px",

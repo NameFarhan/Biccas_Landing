@@ -4,6 +4,7 @@ export const CollabsWrapper = ({ children }) => {
   return (
     <>
       <Box
+        data-aos="fade-in"
         sx={{
           padding: {
             mobile: "0px 10px",

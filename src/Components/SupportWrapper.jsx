@@ -4,6 +4,7 @@ export const SupportWrapper = ({ children }) => {
   return (
     <>
       <Box
+        data-aos="fade-in"
         sx={{
           padding: {
             mobile: "50px 20px",

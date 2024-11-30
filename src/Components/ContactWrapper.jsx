@@ -4,6 +4,7 @@ export const ContactWrapper = ({ children }) => {
   return (
     <>
       <Box
+        data-aos="fade-in"
         sx={{
           padding: {
             mobile: "50px 10px",

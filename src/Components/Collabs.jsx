@@ -32,6 +32,7 @@ const Collabs = () => {
               },
               textAlign: "center",
               mb: "1rem",
+              padding:'20px 20px'
             }}
           >
             More than 25,000 teams use Collabs
@@ -100,7 +101,7 @@ const Collabs = () => {
                       laptop: "100%",
                     },
                   }}
-                  alt="collab1"
+                  alt="collab2"
                   src={collab2}
                 />
               </Box>
@@ -129,7 +130,7 @@ const Collabs = () => {
                       laptop: "100%",
                     },
                   }}
-                  alt="collab1"
+                  alt="collab3"
                   src={collab3}
                 />
               </Box>
@@ -158,7 +159,7 @@ const Collabs = () => {
                       laptop: "100%",
                     },
                   }}
-                  alt="collab1"
+                  alt="collab4"
                   src={collab4}
                 />
               </Box>
@@ -192,7 +193,7 @@ const Collabs = () => {
                       laptop: "100%",
                     },
                   }}
-                  alt="collab1"
+                  alt="collab5"
                   src={collab5}
                 />
               </Box>

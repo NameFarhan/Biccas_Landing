@@ -1,11 +1,10 @@
-
-
 import { Box } from "@mui/material";
 
 export const FeaturesWrapper = ({ children }) => {
   return (
     <>
       <Box
+        data-aos="fade-in"
         sx={{
           padding: {
             mobile: "50px 10px",
